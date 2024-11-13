@@ -1,0 +1,74 @@
+ISHA NALAWADE 
+ REDACTED_PHONE | REDACTED_EMAIL | LinkedIn | GitHub | Portfolio 
+ EDUCATION 
+ University of Massachusetts , Amherst , REDACTED_NAME , REDACTED ( GPA 4.0 ) 
+ September 2023 - May 2025 
+ Masters of Science in Computer Science 
+ Relevant Coursework : Database Design & Implementation , Software Engineering , Information Retrieval 
+ University of Mumbai , Maharashtra , REDACTED ( CGPA 9.72/10 ) 
+ August 2019 - June 2023 
+ Bachelor of Engineering in Information Technology 
+ Relevant Coursework : Advanced Data Structures , Operating Systems , Object - Oriented Programming , DevOps 
+ Achievements : General Secretary of the College , 120 hours of voluntary work , won national - level drama competitions 
+ TECHNICAL SKILLS 
+ Languages : C++ , Python , REDACTED_NAME , C , HTML , CSS , PHP , JavaScript 
+ Frontend : HTML , CSS , React , Tailwind , Bootstrap 
+ Cloud : AWS ( EC2 , S3 ) , GCP 
+ Database : SQL , MySQL , PostgreSQL , NoSQL , MongoDB 
+ Backend : Node , Express , Flask , Spring Boot 
+ Tools & OS : Git , REDACTED_NAME , Docker , Kubernetes , Linux , REDACTED_NAME REDACTED_NAME REDACTED_NAME : JUnit , Selenium 
+ PROFESSIONAL EXPERIENCE 
+ JPMorgan Chase & Co. , Mumbai , REDACTED |Corporate Investment Banking |Summer Intern 
+ June 2022 – July 2022 
+ ● 
+ Devised and implemented a foundational REDACTED_NAME infrastructure utilizing REDACTED_NAME REDACTED_NAME , including setting up REDACTED_NAME brokers , 
+ producers , and consumers to facilitate real - time data processing . 
+ ● 
+ Developed Retry and Replay logic in Java Spring Boot and Oracle DB , reducing message failure rates by 40 % . 
+ ● 
+ Integrated Schema Registry to define the schema of messages sent over REDACTED_NAME and set up serializers and deserializers to 
+ convert messages into bytes and vice versa , ensuring data consistency and reducing message processing time by 25 % . 
+ ● 
+ Presented my work , along with the impact and benefits of the design to an audience of 200 colleagues and seniors . 
+ Iremify , Mumbai , REDACTED | Web Development Intern 
+ June 2021 – July 2021 
+ ● 
+ REDACTED_NAME REDACTED_NAME REDACTED_NAME to craft the user interface with HTML , Bootstrap CSS , and React , resulting in a user - friendly 
+ interface with improved user experience . 
+ ● 
+ Managed SQL database in conjunction with Python Django backend demonstrating compliance with best practices in 
+ database management , and achieved a significant 60 % enhancement in overall performance . 
+ ● 
+ Led a team of 4 and collaborated on the integration of REST APIs and deployment of the website . 
+ ACADEMIC PROJECTS AND PAPERS 
+ Missing Alert and Report System ( MARS ) | REDACTED_NAME , Spring Boot , React , REDACTED_NAME REDACTED_NAME , and SQL | ( link ) 
+ ● 
+ Implemented a web application with a React frontend and a Spring Boot server to notify users about any missing reports 
+ found in the vicinity , through email utilizing the REDACTED_NAME SMTP module . 
+ ● 
+ Engineered a robust SQL database that enables seamless image uploads and retrieval of crucial information . 
+ ● 
+ Authored a research paper in the International Research Journal of Engineering and Technology . 
+  
+ Career Space | HTML , CSS , JavaScript , Python , Flask , PHP , and SQL | ( link ) 
+ ● 
+ Programmed a web - based application to provide a career recommendation and resume - building platform . 
+ ● 
+ Trained the K - Nearest Neighbors Classifier to recommend a career path to students with an accuracy of 97 % . 
+ ● 
+ Employed Google ’s SERP API for scraping job openings , blogs , and YouTube courses relevant to a career . 
+ ● 
+ Won 1st prize in a Hackathon organized by Vidyavardhini College of Engineering and Technology , Mumbai , 2022 . 
+ REDACTED_NAME REDACTED_NAME REDACTED_NAME REDACTED_NAME | MongoDB , Express , React , Node , Tailwind CSS | ( link ) 
+ ● 
+ Initiated and designed an innovative REDACTED_NAME REDACTED_NAME REDACTED_NAME platform to facilitate full - stack Development learning for students . 
+ ● 
+ Engineered a built - in code editor allowing users to code , fostering hands - on learning and practical experience . 
+ ● 
+ Integrated quizzes to evaluate students ' knowledge and a comprehensive report section to track student progress . 
+ Vyaapaar - small business e - commerce website| Python , MongoDB , Express , React , React Hooks , Node | ( link ) 
+ ● 
+ Developed an end - to - end e - commerce platform with MERN stack that serves exclusively for small businesses . 
+ ● 
+ Assembled a Machine Learning model for predicting ratings of small - scale businesses using a Random Forest Regressor 
+ with an accuracy of 96 % . 

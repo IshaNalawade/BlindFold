@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text</title>
+</head>
+<body>
+    <h1>Speech to Text Converter</h1>
+    <form action="/speech-to-text" method="POST">
+        <button type="submit">Start Recording</button>
+    </form>
+    <div>
+        <h2>Speech Recognition Result:</h2>
+        <p id="result"></p>
+    </div>
+    <script>
+        document.querySelector('form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const response = await fetch('/speech-to-text', { method: 'POST'});
+            const data = await response.text();
+            document.getElementById('result').textContent = data;
+        });
+    </script>
+</body>
+</html>
