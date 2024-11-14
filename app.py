@@ -22,6 +22,11 @@ import string
 from sentence_transformers import SentenceTransformer, util
 import google.generativeai as genai
 import markdown
+# from resume import summary_resume
+import torch
+from transformers import pipeline
+import html2text
+
 
 
 app = Flask(__name__)
@@ -176,6 +181,7 @@ def display_text():
     sanitized_file_path = os.path.join(app.config['SANTIZED_FOLDER'], 'sanitized_resume.txt')
     with open(sanitized_file_path, 'r', encoding='utf-8') as f:
         sanitized_resume_content = f.read()
+    sanitized_resume_content=summary_resume(sanitized_resume_content)+" Full resume:"+sanitized_resume_content
     #print(sanitized_resume_content)
     return render_template('display.html', resume_content=sanitized_resume_content)
 
@@ -287,6 +293,34 @@ Instructions:
     html_response = markdown.markdown(relevance_response)
     return html_response
 
+def summary_resume(content):
 
+    # Create prompt for relevance evaluation
+    prompt = f"""
+Given the following resume where personal information of the candidate is redacted: {content}
+Summarise key points important for a hiring manager to know that talk about the merits of the candidate. Avoid any personal details
+"""
+
+    # Create the model
+    generation_config = {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": 40,
+        "max_output_tokens": 8192,
+    }
+
+    model = genai.GenerativeModel(
+        model_name="gemini-1.5-flash",
+        generation_config=generation_config,
+    )
+
+    # Start a chat session and send the prompt
+    chat_session = model.start_chat(history=[])
+    response = chat_session.send_message(prompt)
+
+    relevance_response = response.text
+    html_response = markdown.markdown(relevance_response)
+    plain_text = html2text.html2text(html_response)
+    return html_response
 if __name__ == '__main__':
     app.run(debug=True)
